@@ -14,7 +14,6 @@ in
 {
 
   imports = [
-    ./vscode.nix
     ./zsh.nix
     ./fish.nix
     ./nvim
