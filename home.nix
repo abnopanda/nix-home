@@ -33,4 +33,10 @@ in
   programs.git.userEmail = "abnopanda@gmail.com";
 
   home.file.".hammerspoon".source = modules/hammerspoon/config;
+
+  # Allow non-free (as in beer) packages
+  nixpkgs.config = {
+    allowUnfree = true;
+    # allowUnsupportedSystem = true;
+  };
 }
